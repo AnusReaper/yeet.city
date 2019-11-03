@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body{
+	background-image: url("../media/bg.gif");
+	font-family: 'Press Start 2P';
+	background-size: cover;
+	color: rgba(255, 255, 255, 0.25);
+	text-align: center;
+	margin: 0;
+	user-select: none;
+	overflow: hidden;
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border-width: 4px 0;
+  padding: 0.5em 3em;
+  position: absolute;
+  top: 80px;
+  left: 955px;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+
+p span {
+  font: 700 4em/1 "Press Start 2P";
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  background: url("../media/fill.png") repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+button {
+  font-size: 16px;
+  color: #eee;
+  position: absolute;
+  top: 5;
+  left: 5;
+  transform: translate(0, 0);
+  width: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background: #0000A0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+button.fade:hover {
+  opacity: 1;
+}
+
+.fade {
+  opacity: 0;
+}
+
+.marquee {
+	top: 180px;
+	left: 790px;
+	position: absolute;
+    width: 400px;
+    overflow: hidden;
+    color: purple;
+}

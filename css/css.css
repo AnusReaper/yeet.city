@@ -84,7 +84,7 @@ button.fade:hover {
 	top: 180px;
 	left: 790px;
 	position: absolute;
-    width: 400px;
+    width: 400;
     overflow: hidden;
     color: purple;
 }

@@ -4,11 +4,6 @@ const icon = document.querySelector("#button > i");
 const audio = document.querySelector("audio");
 
 $(document).ready(function () {
-	$('.marquee').marquee({
-		duration: 5000,
-		pauseOnHover: true
-	});
-	
 	button.addEventListener("click", () => {
 	  if (audio.paused) {
 		audio.volume = 1;
@@ -27,4 +22,11 @@ $(document).ready(function () {
 	});
 
 	document.addEventListener('contextmenu', event => event.preventDefault());
+});
+
+$(function () {
+    $('.marquee').marquee({
+        duration: 5000,
+		pauseOnHover: true
+    });
 });

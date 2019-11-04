@@ -4,10 +4,10 @@ const icon = document.querySelector("#button > i");
 const audio = document.querySelector("audio");
 
 $(document).ready(function () {
-    $('.marquee').marquee({
-        duration: 5000,
+	$('.marquee').marquee({
+		duration: 5000,
 		pauseOnHover: true
-    });
+	});
 	
 	button.addEventListener("click", () => {
 	  if (audio.paused) {

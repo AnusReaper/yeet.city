@@ -2,38 +2,32 @@
 
 body{
 	background-image: url("../media/bg.gif");
+	background-size: contain;
 	font-family: 'Press Start 2P';
-	background-size: cover;
-	color: rgba(255, 255, 255, 0.25);
-	text-align: center;
-	margin: 0;
 	user-select: none;
 	overflow: hidden;
 }
 
 p {
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.5em;
   display: inline-block;
   border-width: 4px 0;
-  padding: 0.5em 3em;
   position: absolute;
-  top: 80px;
-  left: 955px;
-  width: 40em;
-  margin: 0 0 0 -20em;
+  margin: 0;
+  padding: 0;
+  top: 5;
+  left: 10;
 }
 
 p span {
   font: 700 4em/1 "Press Start 2P";
   letter-spacing: 0;
-  padding: 0.25em 0 0.325em;
   display: block;
   margin: 0 auto;
-  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
   background: url("../media/fill.png") repeat-y;
-  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: aitf 80s linear infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -58,7 +52,7 @@ button {
   color: #eee;
   position: absolute;
   top: 5;
-  left: 5;
+  right: 5;
   transform: translate(0, 0);
   width: 50px;
   padding: 15px;
@@ -81,10 +75,11 @@ button.fade:hover {
 }
 
 .marquee {
-	top: 180px;
-	left: 790px;
 	position: absolute;
+	top: 80;
+	left: 95;
     width: 400;
     overflow: hidden;
-    color: purple;
+    color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

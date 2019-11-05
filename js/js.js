@@ -12,12 +12,14 @@ $(document).ready(function () {
 		icon.classList.add('fa-volume-mute');
 		button.classList.add("fade");
 		button2.classList.add("fade");
+		document.title = 'NP: Autumn Voyage'
 	  } else {
 		audio.pause();
 		icon.classList.remove('fa-volume-mute');
 		icon.classList.add('fa-volume-up');
 		button.classList.remove("fade");
 		button2.classList.remove("fade");
+		document.title = 'yeet.city'
 	  }
 	});
 

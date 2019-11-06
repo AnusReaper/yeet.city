@@ -34,6 +34,16 @@ p span {
   -webkit-backface-visibility: hidden;
 }
 
+marquee {
+	position: absolute;
+	top: 80;
+	left: 95;
+    width: 400;
+    overflow: hidden;
+    color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 a {
   color: inherit;
 }
@@ -72,14 +82,4 @@ button.fade:hover {
 
 .fade {
   opacity: 0;
-}
-
-.marquee {
-	position: absolute;
-	top: 80;
-	left: 95;
-    width: 400;
-    overflow: hidden;
-    color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

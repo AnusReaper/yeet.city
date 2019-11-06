@@ -12,6 +12,7 @@ $(document).ready(function () {
 		icon.classList.add('fa-volume-mute');
 		button.classList.add("fade");
 		button2.classList.add("fade");
+		button3.classList.add("fade");
 		document.title = 'NP: Autumn Voyage'
 	  } else {
 		audio.pause();
@@ -19,6 +20,7 @@ $(document).ready(function () {
 		icon.classList.add('fa-volume-up');
 		button.classList.remove("fade");
 		button2.classList.remove("fade");
+		button3.classList.remove("fade");
 		document.title = 'yeet.city'
 	  }
 	});

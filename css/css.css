@@ -3,6 +3,7 @@
 body{
 	background-image: url("../media/bg.gif");
 	background-size: 100% 100%;
+	min-height: 100vh;
 	font-family: 'Press Start 2P';
 	user-select: none;
 	overflow: hidden;
